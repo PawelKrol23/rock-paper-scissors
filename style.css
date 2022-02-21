@@ -1,0 +1,143 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', arial;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* header */
+
+header {
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+/* footer */
+
+footer {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    background-color: #3882F6;
+    padding: 10px;
+}
+
+.my-git {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-date {
+    font-size: 10px;
+    color:#c9cac8;
+}
+
+/* game */
+
+.game {
+    width: 100%;
+    flex: 1;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+    padding: 0 20px;
+}
+
+.scores-container {
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+}
+
+.score-display {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    border: #3882F6 solid 5px;
+    font-size: 30px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.score-text {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.results {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 120px;
+    margin: 0 auto;
+    border: #3882F6 solid 5px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#restart, .choice {
+    background: white;
+    border: #3882F6 5px solid;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+hr {
+    width: 500px;
+    margin-top: 40px;
+}
+
+#restart {
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    width: 120px;
+}
